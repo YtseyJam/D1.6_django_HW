@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html'%}
+
+
+{% block content %}
+
+<p><span style="color: #ff0000;"><strong>Этот контент повторяется...</strong></span></p>
+<p><span style="background-color: #ffff00;">дважды&nbsp;
+<img src="https://html5-editor.net/tinymce/plugins/emoticons/img/smiley-cool.gif" alt="cool" /></span></p>
+
+{{ flatpage.content }}
+<hr>
+{{ flatpage.content }}
+
+{% endblock content %}
